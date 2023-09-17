@@ -1,0 +1,137 @@
+
+@media (max-width:1023px) {
+    .sidebar{
+        p{
+            font-size: 13px
+        };
+        i{
+            font-size: 12px
+        };
+        .logo::after{
+            display: none;
+        }
+        .logo::before{
+            display: none
+        }
+    };
+};
+@media (max-width:767px) {
+    .sidebar{
+        .sidelist{
+            margin-top: -10px !important;
+        }
+        .logo{
+            font-size: 16px !important;
+        }
+        p{
+            display: none;
+        }
+        a{
+            justify-content: center;
+        }
+        i{
+            width: 14px !important;
+        }
+        .logo::after{
+            display: none;
+        }
+        .logo::before{
+            display: none
+        }
+    }
+}
+@media (max-width:479px) {
+    .sidebar{
+        p{
+            display: none;
+        }
+        a{
+            justify-content: center;
+        }
+        i{
+            width: 14px !important;
+        }
+        .logo{
+            font-size: 16px !important;
+        }
+    }
+}
+
+.sidebar{
+    height: 100vh;
+    position: sticky;
+    left: 0%;
+    top: 0%;
+    box-shadow: 10px 0px 36px 4px #f6f6f6;
+    .logo{
+        text-transform: capitalize;
+        text-align: center;
+        margin: 30px 0px;
+        font-size: 19px;
+        font-weight: 500;
+        position: relative;
+    }
+    .logo::after{
+        content: "";
+        position: absolute;
+        height: 2px;
+        width: 42%;
+        left : 50% ;
+        transform: translateX(-50%);
+        background-color: black;
+        z-index: -2;
+        bottom: -79%;
+    }
+    .logo::before{
+        content: "";
+        position: absolute;
+        width: 12px;
+        height: 12px;
+        border-radius: 50%;
+        background-color: black;
+        left : 50% ;
+        transform: translateX(-50%);
+        border: 4px solid white;
+        bottom: -120%;
+    }
+    .sidelist{
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+        color: black;
+        justify-content: center;
+        align-items: center;
+        margin-top: 50px;
+        
+        li {
+            cursor: pointer;
+            width: 80%;
+            border-radius: 5px;
+            color: black;
+            i{
+                width: 20px;
+                color: black;
+                font-size: 14px;
+                display: flex;
+                align-items: center;
+                justify-content: flex-start;
+            }
+            a{
+                padding: 10px;
+                display: block;
+                width: 100%;
+                color: black;
+                font-size: 15px;
+                display: flex;
+            }
+        }
+        li:hover{
+            background-color: #f6f6f6;
+        }
+        .act {
+            background-color: #f6f6f6;
+        }
+    }
+
+}
+

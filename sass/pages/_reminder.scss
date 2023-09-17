@@ -1,0 +1,62 @@
+.rem-home{
+    display: flex;
+    flex-direction: column;
+    align-items:center ;
+    width: 25%;
+    height: 40%;
+    gap: 40px;
+    margin: 10% auto;
+    .landing{
+        width: 70%;
+    }
+    li{
+        display: flex;
+        justify-content: space-between;
+        border-bottom: 1px solid gray;
+        padding: 5px;
+        button{
+            background-color: transparent;
+            border: none;
+            color: red;
+            cursor: pointer;
+        }
+    }
+    .head{
+        p{
+            font-size: 40px;
+            font-weight: 700;
+        }
+        span{
+            margin-right: 5px;
+        }
+    }
+    .butt-ent{
+        display: flex;
+        flex-direction: column;
+        gap: 15px;
+        div{
+            display: flex;
+            flex-direction: column;
+            width: 80%;
+            gap: 15px;
+            input[type=text]{
+                border: none;
+                border-bottom: 1px solid gray;
+                margin: 0 auto;
+                padding: 5px;
+            }
+            input[type=text]:focus{
+                outline: none;
+            }
+        }
+        button{
+            padding: 20px;
+            border: none;
+            color: white;
+            background-color: black;
+            text-transform: uppercase;
+            cursor: pointer;
+        }
+    }
+    
+}

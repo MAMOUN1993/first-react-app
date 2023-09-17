@@ -1,0 +1,52 @@
+.home{
+    margin: 100px auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 35%;
+    flex-direction: column;
+    border: 4px solid #f6f6f6;
+    padding-bottom: 10px;
+    .screen{
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        padding: 15px;
+        .holder{
+            height: 40px;
+            font-size: 20px;
+            display: flex;
+            align-items: center;
+            width: 100%;
+            justify-content: flex-end;
+            border-bottom: 4px solid #f6f6f6;
+            overflow: hidden;
+        }
+        .result{
+            height: 80px;    
+            font-size: 40px;
+            display: flex;
+            align-items: center;
+            width: 100%;
+            justify-content: flex-end;
+            overflow: hidden;
+        }
+    }
+    .form{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 2px;
+        button{
+            width: 22%;
+            height: 50px;
+            border: none;
+            cursor: pointer;
+            background-color: #f6f6f6;
+        }
+        button:hover{
+            background-color: #e3e3e3;
+        }
+        
+    }
+}
