@@ -1,0 +1,19 @@
+{
+  "files": {
+    "main.css": "/first-react-app/static/css/main.a58fb45b.css",
+    "main.js": "/first-react-app/static/js/main.c12ef628.js",
+    "static/media/1.mp4": "/first-react-app/static/media/1.a4295d2451c23095b226.mp4",
+    "static/media/GetoSuguru.jpg": "/first-react-app/static/media/GetoSuguru.d9ac0a0275344496b0e5.jpg",
+    "static/media/gojo-jjk.jpg": "/first-react-app/static/media/gojo-jjk.3c54ead8f864c278f90b.jpg",
+    "static/media/etadori.jpg": "/first-react-app/static/media/etadori.54cec0023486916f56a0.jpg",
+    "static/media/migomy.jpg": "/first-react-app/static/media/migomy.64c68af0dbec619c8631.jpg",
+    "static/media/jujutsu-kaisen.webp": "/first-react-app/static/media/jujutsu-kaisen.cf4af206403c2ca77950.webp",
+    "index.html": "/first-react-app/index.html",
+    "main.a58fb45b.css.map": "/first-react-app/static/css/main.a58fb45b.css.map",
+    "main.c12ef628.js.map": "/first-react-app/static/js/main.c12ef628.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.a58fb45b.css",
+    "static/js/main.c12ef628.js"
+  ]
+}
